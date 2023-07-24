@@ -15,7 +15,8 @@
             "js": ["xbegone.js"]
         }
     ],
-    "web_accessible_resources": [
-        "files/twitter.ico"
-    ]
+    "web_accessible_resources": [{ 
+        "resources": ["files/twitter.ico"],
+        "matches": ["<all_urls>"]
+      }]
 }
